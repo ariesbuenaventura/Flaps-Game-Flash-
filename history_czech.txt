@@ -1,0 +1,49 @@
+// Use // to add a comment. 
+//   -> Example : // Comment 
+// Use && to ignore a message.
+//   -> Example : && <b>Game Started!</b>  (you will never see this message in the history window).
+// Use <b>Your Text</b> to turn the text into bold.
+// Use {C} to display the current player.
+// Use {N} to display the number of cards picked from the stock.
+// Use {L} to display what type of card laid by the player.
+// Use {S} to display the sum of cards.
+// Use {T} to display the total number of cards of the current player.
+// Use {M} to display the total number of mega-flaps left.
+// Use {Q} to display the chosen player in HOOFERS-DOOFERS.
+// Use {A} to display the previous suit. 
+// Use {B} to display the new selected suit.
+// 
+// These commands are available only at the status window (bottom window of history)
+// Use {P} to list the total number of cards of each player.
+// Use {I} to list the id number of each player.
+// 
+//
+// Note:   You may change the message but do not delete them, if you
+//       don't want the message to appear in the history window, put && at 
+//       the beginning of the text.
+//
+// Syntax: IdNumber-$$-Message
+
+0-$$-<b>Game Started!</b>
+1-$$-<b>Game Ended!</b>
+2-$$-<b>Player {C}:</b> Picked {N} cards.
+3-$$-<b>No more stock</b>
+4-$$-<b>Player {C}:</b> Laid {L}
+5-$$-->Sum of cards laid : {S}
+6-$$-->Sum of cards laid : 0 (No Effect)
+7-$$-->Cancelled pick up.
+8-$$-->Before : {T} cards.
+9-$$-->After  : {T} cards.
+10-$$-->FLAPS - Started
+11-$$-->FLAPS - End
+12-$$-->MEGA-FLAPS - Started
+13-$$-->MEGA-FLAPS - End
+14-$$-->MEGA-FLAPS LEFT : {M}
+15-$$-<b>Player {C}:</b> Miss A Go.
+16-$$-->Reverse Direction
+17-$$-->Has chosen player {Q}
+18-$$-->Change suit from {A} to {B}
+19-$$-->Last Card
+20-$$-->Sorry but you cannot finish on this card.
+21-$$-->You cannot finish using this card as your last but one card.
+22-$$-<b>Player {I}:</b> {P} cards.

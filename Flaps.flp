@@ -1,0 +1,5 @@
+﻿<flash_project name="Flaps" version="1">
+    <project_file path="./Flaps.fla" filetype="fla" profile="" />
+    <project_file path="./cCard.as" filetype="as" />
+    <project_file path="./cFlaps.as" filetype="as" />
+</flash_project>
